@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(249, 254, 255);
+    justify-content: center;
+    padding: 20px;
+    background-image: url(img/flores.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    color: lightpink;
+    font-family: cursive;
+    font-size: 60px;
+    text-shadow:-2px -1px 0 #0a0808, 2px 1px 0 #fff;
+    
+}
+.formulariogallery{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.formulariobutton{
+    padding: 10px 20px;
+    cursor:pointer;
+    
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+    padding: 10px;
+    font-family:cursive;
+    font-size: 15px;
+    
+}
+
+
+
+.imagencontainer{
+    width: 400%;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 5px;
+    overflow: hidden;
+    max-width: 960px;
+    margin: 10px;
+    
+}
+img{
+    width: 200px;
+    height: 198px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 lightcoral, 0 4px 10px rgb(0, 0, 19);
+    float: left;
+    
+    
+    
+
+}
+img:hover{
+    transform:scale(1.1);
+    border: 1px solid lightcoral;
+}
+.add-image-form{
+    display: flex;
+    gap:10px ;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.add-image-form-input [type="text"]{
+    border:10px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    min-width: 150px;
+    flex-grow:1 ;
+    
+   
+    
+}
+button{
+      padding: 10px 15px;
+      
+}

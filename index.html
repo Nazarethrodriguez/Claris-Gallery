@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de fotos </title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <h1><span>Claris Gallery</span></h1>
+    <div class="formulariogallery">
+        
+        <input type="text" id="imageUrl"placeholder = "URL de la imagén">
+        <input type="text" id="imageDescription" placeholder="Descripción de la imagén">
+        <button id="addImage" onclick="agregarElemento()">Agregar Imagén</button>
+        
+    </div>
+    <div id="errorMessage" class="error"></div>
+         
+    <div class="gallery"> </div>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>
